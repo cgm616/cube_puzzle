@@ -45,3 +45,9 @@ For starters, it's fast, and I wasn't sure how long it would take to try all of 
 More importantly, it has great support for well-structured data.
 I liberally used Rust `enum`s and wrapper `struct`s to help me keep track of each puzzle piece, and Rust's `Result`-based error-handling pattern matched well with backtracking.
 I also used Rust's amazing support for unit tests to debug my puzzle piece-rotating code, which was bug-ridden at first.
+
+### Running it
+
+There are no dependencies!
+Make sure you've installed Rust and clone the repo.
+Then a simple `cargo run --release` will run the solver for you.
